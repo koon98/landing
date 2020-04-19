@@ -1,0 +1,45 @@
+.banner{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.7) 10%, rgba(0,0,0,0.2) 80%), url(../../images/buildings.jpg);
+	color: white;
+	padding: 20px 130px 130px;
+	background-size: cover;
+	background-position: center;
+}
+
+@media (max-width: 540px){
+	.banner{
+		padding: 220px 50px 180px;
+	}	
+}
+
+#kahzer{
+	margin: 0px 0px 200px;
+    text-align: center;
+}
+
+#kahzer h1{
+	margin: 4px;
+    height: 45px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+#kahzer h2{
+	margin: 0px;
+    font-size: 17px;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+
+.banner h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.banner h2{
+	font-size: 25px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
